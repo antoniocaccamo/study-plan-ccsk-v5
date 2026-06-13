@@ -1,0 +1,1616 @@
+== CCSK v5 Certification Exam: 12-Week Daily Study Checklist
+:sectanchors:
+:sectids:
+:sectnums: |,all|
+:seclinks:
+
+:toc: auto
+
+A comprehensive day-by-day guide to mastering all 12 CSA Security
+Guidance v5 domains for the CCSK certification exam.
+
+'''''
+
+=== How to Use This Study Plan
+
+* Study Monday–Friday, rest on weekends. Each day requires 2–2.5 hours
+of focused study.
+* Complete all `Study Focus' and `Activities' before moving to the next
+day.
+* Use the `Key Resources' to access specific materials for each day.
+* Track your progress by checking off days as you complete them.
+* If a day feels rushed, take more time — mastery matters more than
+schedule adherence.
+* The `Exam Tip' for each day highlights concepts frequently tested on
+the CCSK.
+* Week 11–12 are intensive review and practice. Don’t skip them.
+* Use official CSA sample questions and practice exams. These are the
+most accurate preparation.
+
+'''''
+
+=== General Study Tips
+
+* The CCSK is open-book: CSA Guidance v5 PDF + CCM v4 PDF are allowed.
+No internet. Bookmark key sections before the exam.
+* *Shared Responsibility Model* is foundational. Master it for every
+cloud service type (IaaS, PaaS, SaaS) before moving forward.
+* The *data lifecycle* (Create → Store → Use → Share → Archive →
+Destroy) appears in multiple domains. Learn it cold.
+* *Cloud Controls Matrix (CCM)* is your reference tool. Get comfortable
+navigating it early.
+* *Scenario-based questions* dominate the exam. Practice applying
+concepts to real-world situations.
+* Identify weak domains early (Week 3-4) and allocate extra review time.
+* Form or join a study group. Explaining concepts to others reinforces
+your understanding.
+* Avoid cramming. Consistent daily study for 12 weeks beats frantic
+last-minute prep.
+* CCSK is not about memorization—it’s about understanding cloud security
+principles and their application.
+
+'''''
+
+== Phase 1: Foundation & Governance
+
+=== Week 1: Cloud Architecture & Fundamentals
+
+==== Day 1: Cloud Computing Basics & Models
+
+*Key Concepts to Master:* - Definition of cloud computing (NIST SP
+800-145) - IaaS, PaaS, SaaS definitions and differences - Public,
+private, hybrid, community clouds - Cloud deployment model matrix
+
+*Study Focus:* Understand the foundational layers of cloud and how
+services are stacked
+
+*Activities:* - Read CSA Guidance v5, Domain 1, Section 1.1-1.2 - Create
+a comparison table: IaaS vs PaaS vs SaaS (capabilities, examples,
+responsibility) - Map NIST definitions to real-world services (AWS,
+Azure, GCP)
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Shared responsibility model varies per service type —
+this is tested heavily. Create a responsibility matrix now.
+
+*Resources:* NIST SP 800-145, CSA Guidance v5 D1
+
+* ☐ Completed
+
+'''''
+
+==== Day 2: Shared Responsibility Model
+
+*Key Concepts to Master:* - CSP responsibilities across IaaS/PaaS/SaaS -
+Customer responsibilities per service model - The responsibility
+boundary - Common misconceptions (what CSP doesn’t manage)
+
+*Study Focus:* Master the shared responsibility model — it’s the
+foundation of all cloud security
+
+*Activities:* - Study the CSA Guidance shared responsibility matrix for
+each service type - Create a detailed SRM table for: IaaS (e.g., EC2),
+PaaS (e.g., Lambda), SaaS (e.g., Office 365) - Write 3 exam-style
+questions and answers on SRM
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Common exam trick: ``CSP manages OS patching in SaaS''
+(False) vs ``CSP manages infrastructure security in IaaS'' (True). Know
+the line.
+
+*Resources:* CSA Shared Responsibility Guide, Cloud Provider Security
+Documents
+
+* ☐ Completed
+
+'''''
+
+==== Day 3: Cloud Architecture Components
+
+*Key Concepts to Master:* - Control planes vs data planes - Trust
+boundaries in cloud architecture - API security fundamentals - Network
+isolation and multi-tenancy
+
+*Study Focus:* Understand how cloud infrastructure is organized and
+secured at a design level
+
+*Activities:* - Draw and label a cloud architecture diagram showing
+control plane, data plane, and trust boundaries - Read CSA’s overview of
+cloud architecture security patterns - Identify trust boundaries in each
+cloud deployment model
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Multi-tenancy is unique to cloud — exam tests whether you
+understand isolation mechanisms.
+
+*Resources:* CSA Guidance v5 D1, NIST SP 800-146
+
+* ☐ Completed
+
+'''''
+
+==== Day 4: Cloud Controls Matrix (CCM) Intro
+
+*Key Concepts to Master:* - What is the CCM and why it matters - 13
+domains of the CCM v4 - Control categories: Detective, Preventive,
+Corrective - CCM structure and how to navigate it
+
+*Study Focus:* Get familiar with the CCM as your primary reference tool
+throughout the exam
+
+*Activities:* - Download and review CSA CCM v4 (Excel file) - Study the
+13 domain overview and understand their scope - Map each domain to the
+CCSK v5 Guidance domains - Create a quick-reference guide to CCM
+structure
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* The CCM is open-book on exam day — know how to navigate
+it quickly. Bookmark key sections in your PDF.
+
+*Resources:* CSA CCM v4, CSA Guidance v5 Overview
+
+* ☐ Completed
+
+'''''
+
+==== Day 5: Week 1 Review & Practice
+
+*Key Concepts to Master:* - All Week 1 topics: Cloud models, SRM,
+architecture, CCM - Integration of foundational concepts - Common cloud
+security terms and definitions
+
+*Study Focus:* Consolidate Week 1 knowledge and identify weak areas
+
+*Activities:* - Answer 10 sample questions on cloud fundamentals (from
+CSA website) - Create flashcards: Cloud models, responsibility
+boundaries, CCM domains - Self-quiz: Can you explain SRM for 3 different
+service types without notes? - Mind map: Connect all Week 1 concepts to
+show relationships
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Before moving to Week 2, ensure you can articulate the
+shared responsibility model perfectly. It underpins everything.
+
+*Resources:* CSA Sample Questions, Flashcard app (Anki)
+
+* ☐ Completed
+
+'''''
+
+=== Week 2: Governance, Risk & Compliance
+
+==== Day 1: Cloud Governance Frameworks
+
+*Key Concepts to Master:* - ISO 27017 (cloud information security) - ISO
+27018 (cloud PII protection) - COBIT 5 for cloud - CSA STAR
+certification program
+
+*Study Focus:* Understand governance frameworks specific to cloud
+
+*Activities:* - Read CSA Guidance v5, Domain 2, Governance section -
+Compare ISO 27017, ISO 27018, and COBIT 5 — what does each cover? -
+Create a framework comparison table - Study CSA STAR levels and
+requirements
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* ISO 27017 is heavily tested. Know that it extends ISO
+27001 for cloud contexts.
+
+*Resources:* CSA Guidance v5 D2, ISO 27017 Summary
+
+* ☐ Completed
+
+'''''
+
+==== Day 2: CSA STAR Program In-Depth
+
+*Key Concepts to Master:* - STAR Level 1: Self-Assessment / CAQ - STAR
+Level 2: Certification (SOC 2, ISO 27001) - STAR Level 3: Continuous
+Monitoring - How STAR demonstrates compliance
+
+*Study Focus:* Master the CSA STAR program — common exam topic
+
+*Activities:* - Study the CSA STAR website and program requirements -
+Create a table: STAR Level, effort, requirements, value - Review 3 real
+CSA STAR certified providers and their certifications - Practice
+question: `What’s the difference between STAR Level 1 and Level 2?'
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Exam questions often ask what STAR Level a provider
+should pursue given certain constraints. Know the progression.
+
+*Resources:* CSA STAR, CSA Guidance v5 D2
+
+* ☐ Completed
+
+'''''
+
+==== Day 3: Risk Management in Cloud
+
+*Key Concepts to Master:* - Risk identification specific to cloud - Risk
+analysis and quantification - Risk treatment strategies (mitigate,
+accept, transfer, avoid) - Residual risk and risk appetite
+
+*Study Focus:* Apply traditional risk management to cloud-specific
+scenarios
+
+*Activities:* - Read NIST SP 800-30 (Risk Assessment) — focus on
+cloud-specific risks - Identify 5 cloud-specific risks (e.g., data
+residency, vendor lock-in) - For each risk, propose treatment strategy
+and residual risk - Practice: `A company worries about data loss. What
+are treatment options?'
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Exam may present scenarios asking you to prioritize risks
+or recommend treatment. Understand your options.
+
+*Resources:* NIST SP 800-30, CSA Guidance v5 D2
+
+* ☐ Completed
+
+'''''
+
+==== Day 4: Governance Strategy & Controls
+
+*Key Concepts to Master:* - Defining governance strategy in cloud -
+Governance controls and their scope - CSP governance vs customer
+governance - Policy and procedure in cloud environment
+
+*Study Focus:* Understand how to implement governance in cloud-first
+environments
+
+*Activities:* - Study CSA’s governance control matrix from Domain 2 -
+Map governance controls to cloud layers (CSP, customer, hybrid) - Design
+a simple governance policy for cloud resource management - Review real
+examples: Google Cloud governance, AWS governance frameworks
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Know which governance responsibilities fall on the
+customer vs CSP — this clarifies control ownership.
+
+*Resources:* CSA Guidance v5 D2, CSA Governance Guide
+
+* ☐ Completed
+
+'''''
+
+==== Day 5: Week 2 Review & Risk Scenarios
+
+*Key Concepts to Master:* - Governance frameworks, STAR, risk
+management, controls - Synthesis of governance and risk concepts
+
+*Study Focus:* Apply governance and risk management to realistic cloud
+scenarios
+
+*Activities:* - Answer 10 CSA sample questions on governance and risk -
+Case study: A startup adopting SaaS for CRM. What governance risks
+exist? How to mitigate? - Create a STAR-based assessment: Should Company
+X pursue Level 1, 2, or 3? - Self-assessment: Can you explain CSA STAR,
+ISO 27017, and risk management cold?
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* This week is less technical but highly tested. Expect
+scenario questions that require judgment.
+
+*Resources:* CSA Sample Questions, CSA Guidance v5 D2
+
+* ☐ Completed
+
+'''''
+
+=== Week 3: Legal, Compliance & eDiscovery
+
+==== Day 1: Data Jurisdiction & Sovereignty
+
+*Key Concepts to Master:* - Data location and jurisdiction concepts -
+Sovereignty issues in cloud - Cross-border data transfer regulations -
+Data residency requirements (GDPR, HIPAA, etc.)
+
+*Study Focus:* Understand legal implications of data residing in
+different jurisdictions
+
+*Activities:* - Read CSA Guidance v5, Domain 3, jurisdiction section -
+Map GDPR, CCPA, HIPAA data residency requirements - Study data adequacy
+concepts (EU-US, etc.) - Case study: Company in Germany storing data in
+AWS US region — what are implications?
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Data sovereignty is increasingly important in CCSK v5.
+Know the concept and real-world implications.
+
+*Resources:* GDPR Articles 1-6, CCPA, CSA Guidance v5 D3
+
+* ☐ Completed
+
+'''''
+
+==== Day 2: Cloud Contracts & SLAs
+
+*Key Concepts to Master:* - Key contract elements: liability,
+indemnification, audit rights - Service Level Agreements (SLAs) - Data
+ownership and control in cloud - Termination and data return clauses
+
+*Study Focus:* Know what to look for in cloud contracts and why each
+element matters
+
+*Activities:* - Review real cloud provider contracts (AWS, Azure, GCP
+terms of service) - Analyze key clauses: liability caps,
+indemnification, audit rights - Study SLAs and understand uptime
+guarantees - Create a cloud contract review checklist
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Exam may ask about contractual obligations or rights —
+know the big ones: audit rights, liability, data ownership.
+
+*Resources:* CSA Guidance v5 D3, AWS/Azure/GCP Service Agreements
+
+* ☐ Completed
+
+'''''
+
+==== Day 3: eDiscovery in Cloud
+
+*Key Concepts to Master:* - eDiscovery challenges specific to cloud -
+Data location and chain of custody - Data preservation in cloud -
+Compliance with legal holds and regulations
+
+*Study Focus:* Understand why cloud eDiscovery is harder and what
+solutions exist
+
+*Activities:* - Read CSA Guidance v5, Domain 3, eDiscovery section -
+Identify 5 eDiscovery challenges in cloud (e.g., data location
+uncertainty, audit logs) - Study NIST SP 800-101 Rev 1 (Guidelines on
+Mobile Device Forensics) - Scenario: Legal hold issued. How do you
+preserve cloud data across multiple CSPs?
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Cloud forensics and eDiscovery is a complex topic. Focus
+on understanding why it’s harder, not forensic techniques.
+
+*Resources:* CSA Guidance v5 D3, NIST SP 800-101
+
+* ☐ Completed
+
+'''''
+
+==== Day 4: GDPR, CCPA & Privacy Regulations
+
+*Key Concepts to Master:* - GDPR fundamentals and cloud implications -
+CCPA and US privacy laws - Data processor vs data controller - Consent,
+Data Subject Rights, Breach Notification
+
+*Study Focus:* Know major privacy regulations and how they impact cloud
+deployments
+
+*Activities:* - Study GDPR Articles 1-40 (focus on cloud-relevant
+articles) - Compare GDPR and CCPA — similarities, differences -
+Understand processor vs controller roles in cloud - Case study: SaaS
+provider handling EU customer data — GDPR compliance requirements
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* GDPR is global standard now. Know key concepts: lawful
+basis, DPIA, breach notification timelines.
+
+*Resources:* GDPR Text, CCPA Text, CSA Guidance v5 D3
+
+* ☐ Completed
+
+'''''
+
+==== Day 5: Week 3 Review & Legal Scenarios
+
+*Key Concepts to Master:* - Jurisdiction, contracts, eDiscovery, privacy
+laws - Synthesis of legal and compliance issues
+
+*Study Focus:* Apply legal and compliance knowledge to realistic
+scenarios
+
+*Activities:* - Answer 10 CSA sample questions on legal and compliance -
+Scenario 1: Company subject to GDPR, wants to move CRM to AWS US. What’s
+required? - Scenario 2: Litigation hold issued. How do you ensure cloud
+data preservation? - Create a privacy compliance checklist for cloud
+adoption - Review CSA Guidance D3 and highlight exam-likely topics
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Legal domain is tricky because it varies by jurisdiction.
+Focus on principles, not specific country rules.
+
+*Resources:* CSA Sample Questions, CSA Guidance v5 D3
+
+* ☐ Completed
+
+'''''
+
+== Phase 2: Core Security Domains
+
+=== Week 4: Compliance & Audit Management
+
+==== Day 1: Compliance Inheritance in Cloud
+
+*Key Concepts to Master:* - Compliance responsibility in cloud stack -
+What CSP provides vs what customer implements - Compliance evidence and
+artifacts - Audit trails in cloud environments
+
+*Study Focus:* Understand how compliance works across cloud layers
+
+*Activities:* - Read CSA Guidance v5, Domain 4 - For each service model
+(IaaS/PaaS/SaaS), identify compliance inheritance - Study cloud provider
+compliance documentation (AWS Compliance Center, etc.) - Create a table:
+Compliance responsibility per service type
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Compliance inheritance is the cloud equivalent of shared
+responsibility — CSP gives you tools and evidence, you must implement.
+
+*Resources:* CSA Guidance v5 D4, AWS Compliance Center, Azure Trust
+Center
+
+* ☐ Completed
+
+'''''
+
+==== Day 2: SOC 2 Type I vs Type II
+
+*Key Concepts to Master:* - SOC 2 framework and Trust Service Principles
+(TSPs) - Type I vs Type II audits - Security, Availability, Processing
+Integrity, Confidentiality, Privacy (CAATS) - Using SOC 2 reports for
+compliance
+
+*Study Focus:* Master SOC 2 — heavily tested and practically important
+
+*Activities:* - Read AICPA SOC 2 documentation (free overview available)
+- Understand the 5 Trust Service Categories and what Type I/II mean -
+Review a sample SOC 2 Type II report - Practice question: `Company X
+uses SaaS with SOC 2 Type I. What’s missing?' - Study why Type II is
+more valuable (covers period of time)
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Type I = point in time, Type II = ongoing (6-12 months).
+This distinction is frequently tested.
+
+*Resources:* AICPA SOC Overview, Sample SOC 2 Reports, CSA Guidance v5
+D4
+
+* ☐ Completed
+
+'''''
+
+==== Day 3: ISO 27001, FedRAMP & Other Standards
+
+*Key Concepts to Master:* - ISO 27001 in cloud contexts - FedRAMP
+(Federal Risk and Authorization Management Program) - HIPAA compliance
+in cloud - PCI DSS for cloud environments
+
+*Study Focus:* Know key compliance standards beyond SOC 2
+
+*Activities:* - Study ISO 27001 Annex A controls and cloud applicability
+- Research FedRAMP levels (Low, Moderate, High) - Compare compliance
+footprints: SOC 2 vs ISO 27001 vs FedRAMP - Create a standard selection
+matrix: When would you choose each?
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Don’t memorize all standards. Focus on understanding what
+each covers and which CSP providers support them.
+
+*Resources:* ISO 27001 Summary, FedRAMP Docs, CSA Guidance v5 D4
+
+* ☐ Completed
+
+'''''
+
+==== Day 4: Continuous Compliance Programs
+
+*Key Concepts to Master:* - Continuous monitoring vs periodic audits -
+Compliance automation and tools - Compliance gap analysis and
+remediation - Audit readiness in cloud
+
+*Study Focus:* Understand how to maintain compliance in cloud-first
+environments
+
+*Activities:* - Study continuous compliance concepts - Review CSA STAR
+Level 3 (continuous monitoring) requirements - Research cloud-native
+compliance tools (e.g., AWS Audit Manager) - Design a simple continuous
+compliance program for a cloud workload
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Cloud enables continuous compliance — traditional annual
+audits are becoming outdated.
+
+*Resources:* CSA Guidance v5 D4, CSA STAR Level 3
+
+* ☐ Completed
+
+'''''
+
+==== Day 5: Week 4 Review & Compliance Scenarios
+
+*Key Concepts to Master:* - Compliance inheritance, SOC 2, standards,
+continuous compliance - Synthesis of audit and compliance concepts
+
+*Study Focus:* Apply compliance knowledge to real-world audit scenarios
+
+*Activities:* - Answer 10 CSA sample questions on compliance and audit -
+Scenario 1: Company needs FedRAMP. What CSP options exist? - Scenario 2:
+Three SaaS options for HR system. Evaluate compliance: SOC 2 Type I,
+Type II, ISO 27001. - Create an audit readiness checklist for cloud
+deployment - Mock exam: Can you differentiate between SOC 2, ISO 27001,
+and FedRAMP?
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Domain 4 is practical — expect scenario-based questions.
+Know which standard to recommend when.
+
+*Resources:* CSA Sample Questions, CSA Guidance v5 D4
+
+* ☐ Completed
+
+'''''
+
+=== Week 5: Information Governance & Data Security
+
+==== Day 1: Data Classification & Governance
+
+*Key Concepts to Master:* - Data classification schemes (Public,
+Internal, Confidential, Restricted) - Classification criteria and
+metadata - Data ownership and stewardship - Data governance policies in
+cloud
+
+*Study Focus:* Establish data classification as the foundation for data
+security
+
+*Activities:* - Read CSA Guidance v5, Domain 5 - Study data
+classification frameworks (NIST, CSA, ISO 27018) - Create a
+classification scheme for a sample organization - Review how cloud
+services support classification (tags, labels, policies)
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Data classification drives all other data security
+decisions. Get this right first.
+
+*Resources:* CSA Guidance v5 D5, ISO 27018 Overview
+
+* ☐ Completed
+
+'''''
+
+==== Day 2: Data Lifecycle Management
+
+*Key Concepts to Master:* - Data lifecycle stages: Create → Store → Use
+→ Share → Archive → Destroy - Security controls per lifecycle stage -
+Data retention and disposal - Encryption throughout lifecycle (at rest,
+in transit, in use)
+
+*Study Focus:* Map security controls to each data lifecycle stage
+
+*Activities:* - Draw a data lifecycle diagram with security controls at
+each stage - For each stage, identify threats and controls - Study
+encryption in cloud: at-rest (storage), in-transit (TLS), in-use
+(tokenization, homomorphic) - Practice: Design data security for
+customer PII in SaaS application
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Data lifecycle is tested heavily in CCSK v5. You should
+be able to map controls to each stage cold.
+
+*Resources:* CSA Guidance v5 D5, NIST SP 800-111
+
+* ☐ Completed
+
+'''''
+
+==== Day 3: Business Continuity & Disaster Recovery
+
+*Key Concepts to Master:* - RTO (Recovery Time Objective) and RPO
+(Recovery Point Objective) - Backup strategies in cloud - Multi-region
+redundancy - Failover and failback procedures - Testing and validation
+of BC/DR
+
+*Study Focus:* Understand cloud BC/DR architectures and their tradeoffs
+
+*Activities:* - Read CSA Guidance v5, Domain 6 (BC/DR section) - Study
+RTO vs RPO — understand the tradeoff - Design a BC/DR strategy for
+critical cloud application - Review cloud backup solutions (AWS Backup,
+Azure Backup, etc.) - Case study: Multi-region deployment for high
+availability
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* RTO and RPO are frequently tested. Know how they drive
+architecture decisions.
+
+*Resources:* CSA Guidance v5 D6, NIST SP 800-34
+
+* ☐ Completed
+
+'''''
+
+==== Day 4: Data Residency, Sovereignty & Encryption
+
+*Key Concepts to Master:* - Data residency requirements and cloud
+provider options - Encryption as control for sovereignty (customer holds
+keys) - Bring Your Own Key (BYOK) and Host Your Own Key (HYOK) - Key
+management in multi-region deployments
+
+*Study Focus:* Understand how encryption addresses data sovereignty
+concerns
+
+*Activities:* - Study how major cloud providers support data residency
+(region selection, replication) - Compare BYOK vs HYOK vs CSP-managed
+keys - Design a key management strategy for globally distributed data -
+Review Azure Key Vault, AWS KMS, GCP KMS architectures
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Encryption with customer-held keys solves sovereignty
+issues — common exam scenario.
+
+*Resources:* CSA Guidance v5 D5, Cloud KMS Documentation
+
+* ☐ Completed
+
+'''''
+
+==== Day 5: Week 5 Review & Data Security Scenarios
+
+*Key Concepts to Master:* - Data classification, lifecycle, BC/DR,
+encryption, sovereignty - Synthesis of data governance and data security
+
+*Study Focus:* Apply data security concepts to realistic cloud scenarios
+
+*Activities:* - Answer 10 CSA sample questions on data and governance -
+Scenario 1: Healthcare app needs HIPAA compliance with data in EU.
+Design security. - Scenario 2: Define RTO/RPO for critical database.
+Recommend architecture. - Create a data security checklist covering
+lifecycle - Self-assessment: Can you map controls to data lifecycle
+stages for any data type?
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Domain 5-6 are practical. Expect scenario questions
+requiring you to design data security end-to-end.
+
+*Resources:* CSA Sample Questions, CSA Guidance v5 D5-D6
+
+* ☐ Completed
+
+'''''
+
+=== Week 6: Infrastructure & Virtualization Security
+
+==== Day 1: Cloud Network Security
+
+*Key Concepts to Master:* - Virtual Private Clouds (VPCs) and network
+segmentation - Security Groups vs Network ACLs (NACLs) -
+Microsegmentation strategies - DDoS mitigation and network perimeter
+security
+
+*Study Focus:* Master network isolation and segmentation in cloud
+
+*Activities:* - Read CSA Guidance v5, Domain 7 - Study VPC concepts:
+subnets, routing, internet gateways - Understand security groups
+(stateful) vs NACLs (stateless) - Design a network architecture with
+multiple security zones - Review cloud DDoS services (AWS Shield, Azure
+DDoS, GCP Cloud Armor)
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Security Groups = stateful, NACLs = stateless. This
+distinction is frequently tested.
+
+*Resources:* CSA Guidance v5 D7, VPC Design Best Practices, NIST SP
+800-144
+
+* ☐ Completed
+
+'''''
+
+==== Day 2: Compute Security (VMs, Containers, Serverless)
+
+*Key Concepts to Master:* - VM hardening and secure baseline images -
+Container security: image scanning, runtime security - Kubernetes
+security: RBAC, network policies, pod security - Serverless security:
+function isolation, dependency risks
+
+*Study Focus:* Understand security across compute service types
+
+*Activities:* - Study VM hardening (CIS benchmarks, OS patching,
+minimization) - Review container security tools (scanning, registries,
+admission controllers) - Learn Kubernetes RBAC and network policy
+concepts - Understand serverless threats (cold start delays, dependency
+injection) - Compare security models: VMs vs containers vs serverless
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Container and serverless security is increasingly
+important in CCSK v5. Don’t skip.
+
+*Resources:* CSA Guidance v5 D7, NIST SP 800-190, CIS Benchmarks
+
+* ☐ Completed
+
+'''''
+
+==== Day 3: Storage Security (Object, Block, File)
+
+*Key Concepts to Master:* - Object storage access controls (S3 buckets,
+policies, ACLs) - Encryption for storage (at-rest encryption, key
+management) - Block storage security (EBS, managed disks, encryption) -
+File storage security (EFS, SMB shares, access controls)
+
+*Study Focus:* Know security for all cloud storage types
+
+*Activities:* - Study object storage (S3, Azure Blob, GCS) access
+control models - Understand encryption options for each storage type -
+Review common misconfigurations (public S3 buckets, unencrypted volumes)
+- Design storage architecture for confidential data - Lab: Create a
+secure bucket policy (if you have cloud access)
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Publicly exposed object storage is a common breach
+vector. Exam likely includes misconfiguration scenarios.
+
+*Resources:* CSA Guidance v5 D7, Cloud Storage Best Practices
+
+* ☐ Completed
+
+'''''
+
+==== Day 4: Application & Workload Protection
+
+*Key Concepts to Master:* - Web Application Firewalls (WAF) - Intrusion
+Detection/Prevention in cloud (IDS/IPS) - API Gateway security - Cloud
+workload protection (CWPP) and runtime protection
+
+*Study Focus:* Understand security services for protecting cloud
+applications
+
+*Activities:* - Study WAF capabilities and cloud WAF services - Review
+IDS/IPS alternatives in cloud (signature-based, anomaly detection) -
+Understand API gateway security (rate limiting, authentication,
+encryption) - Learn about cloud-native threat detection and response
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* WAF and API security are critical for protecting cloud
+applications. Know cloud-native approaches.
+
+*Resources:* CSA Guidance v5 D7, OWASP Top 10, WAF Documentation
+
+* ☐ Completed
+
+'''''
+
+==== Day 5: Week 6 Review & Infrastructure Scenarios
+
+*Key Concepts to Master:* - Network security, compute, storage,
+application protection - Synthesis of infrastructure security controls
+
+*Study Focus:* Design secure infrastructure for cloud applications
+
+*Activities:* - Answer 10 CSA sample questions on infrastructure -
+Scenario 1: Design network architecture for 3-tier app with data
+sensitivity levels - Scenario 2: Secure a public-facing API in cloud —
+what controls? - Scenario 3: Container deployment security — how to
+protect runtime? - Security group/NACL puzzle: Why is the combination
+better than either alone?
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Infrastructure domain is practical. Expect design-based
+scenario questions.
+
+*Resources:* CSA Sample Questions, CSA Guidance v5 D7
+
+* ☐ Completed
+
+'''''
+
+=== Week 7: Virtualization & Containers
+
+==== Day 1: Hypervisor & VM Security
+
+*Key Concepts to Master:* - Type 1 (bare metal) vs Type 2 (hosted)
+hypervisors - VM escape vulnerabilities and mitigation - VM isolation
+and secure multi-tenancy - Hypervisor patching and updates
+
+*Study Focus:* Understand hypervisor security and VM isolation
+mechanisms
+
+*Activities:* - Read CSA Guidance v5, Domain 8 - Study hypervisor types
+and how CSPs use them - Understand VM escape risks (e.g., CVE-2009-1244)
+- Review hypervisor security controls (memory isolation, privilege
+levels) - Understand hardware-assisted virtualization (VT-x, AMD-V)
+benefits
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* VM escape is theoretical but important for understanding
+cloud security boundaries. Know the concept.
+
+*Resources:* CSA Guidance v5 D8, NIST SP 800-125
+
+* ☐ Completed
+
+'''''
+
+==== Day 2: Container Fundamentals & Security
+
+*Key Concepts to Master:* - Container architecture (layers, registries,
+images) - Container image security and scanning - Container registry
+security (access control, image signing) - Runtime container security
+and monitoring
+
+*Study Focus:* Master container security fundamentals
+
+*Activities:* - Study container architecture and image structure -
+Review container scanning tools (Trivy, Snyk, Aqua, etc.) - Understand
+image signing and verification (Docker Content Trust, etc.) - Learn
+container runtime security (seccomp, AppArmor, SELinux) - Case study:
+Secure container deployment pipeline
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Container security is rapidly growing in CCSK. Image
+scanning and registry security are key concepts.
+
+*Resources:* CSA Guidance v5 D8, NIST SP 800-190, OWASP Container
+Security
+
+* ☐ Completed
+
+'''''
+
+==== Day 3: Kubernetes Security Fundamentals
+
+*Key Concepts to Master:* - Kubernetes architecture (control plane,
+worker nodes) - RBAC (Role-Based Access Control) in K8s - Network
+Policies for pod isolation - Pod Security Standards (PSS) and admission
+controllers
+
+*Study Focus:* Understand K8s security model and core controls
+
+*Activities:* - Study K8s architecture and components - Learn RBAC:
+ServiceAccounts, Roles, RoleBindings - Understand Network Policies and
+how they restrict traffic - Study Pod Security Standards (replacement
+for PSP) - Review CIS Kubernetes Benchmark highlights
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Kubernetes is critical for modern cloud. Know RBAC and
+network policies — they’re tested.
+
+*Resources:* CSA Guidance v5 D8, CIS K8s Benchmark, Kubernetes Security
+Best Practices
+
+* ☐ Completed
+
+'''''
+
+==== Day 4: Serverless Security
+
+*Key Concepts to Master:* - Serverless computing model and threat
+landscape - Function-level isolation and shared infrastructure -
+Dependency and third-party code risks - Secrets management in serverless
+
+*Study Focus:* Understand serverless security challenges and solutions
+
+*Activities:* - Study serverless architecture (AWS Lambda, Azure
+Functions, GCP Cloud Functions) - Identify serverless security risks
+(cold start delays, shared environments, dependencies) - Review secrets
+management in serverless (environment variables, vaults) - Understand
+infrastructure-as-code (IaC) security for serverless - Case study:
+Secure serverless data pipeline
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Serverless security is newer in CCSK but growing. Focus
+on understanding the threat model.
+
+*Resources:* CSA Guidance v5 D8, OWASP Serverless Security, Cloud
+Function Security
+
+* ☐ Completed
+
+'''''
+
+==== Day 5: Week 7 Review & Containerization Scenarios
+
+*Key Concepts to Master:* - Hypervisors, containers, Kubernetes,
+serverless - Synthesis of virtualization and container security
+
+*Study Focus:* Design secure container and serverless deployments
+
+*Activities:* - Answer 10 CSA sample questions on virtualization -
+Scenario 1: Secure a K8s cluster — design RBAC, network policies, pod
+security - Scenario 2: Container image pipeline security — how to
+prevent vulnerable images? - Scenario 3: Serverless function security —
+what are top risks and mitigations? - Compare security: VMs vs
+containers vs serverless for different workload types
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Domain 8 blends infrastructure and containerization. Know
+both traditional and cloud-native approaches.
+
+*Resources:* CSA Sample Questions, CSA Guidance v5 D8
+
+* ☐ Completed
+
+'''''
+
+== Phase 3: Identity, App, & Operations
+
+=== Week 8: Identity & Access Management
+
+==== Day 1: Identity Fundamentals & Federation
+
+*Key Concepts to Master:* - Authentication vs authorization - Federated
+identity and SSO (Single Sign-On) - SAML 2.0 basics and SP-IdP
+interaction - OAuth 2.0 and delegated authorization
+
+*Study Focus:* Master identity federation concepts
+
+*Activities:* - Read CSA Guidance v5, Domain 9 - Study SAML 2.0 flow
+(Service Provider to Identity Provider) - Understand OAuth 2.0 grants
+(authorization code, implicit, etc.) - Compare SAML vs OAuth — when to
+use each - Draw identity architecture with federated authentication
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* SAML and OAuth are tested heavily. Know the flows and
+difference between them.
+
+*Resources:* CSA Guidance v5 D9, OASIS SAML 2.0 Spec, OAuth 2.0 RFC 6749
+
+* ☐ Completed
+
+'''''
+
+==== Day 2: Multi-Factor Authentication (MFA) & Zero Trust
+
+*Key Concepts to Master:* - Authentication factors: something you
+know/have/are - MFA implementations in cloud (SMS, TOTP, hardware keys,
+biometrics) - Conditional Access and risk-based authentication - Zero
+Trust principles applied to IAM
+
+*Study Focus:* Understand modern authentication approaches and Zero
+Trust
+
+*Activities:* - Study MFA types and their strengths/weaknesses -
+Understand Conditional Access (Azure AD) and similar services - Learn
+Zero Trust IAM principles (least privilege, MFA, ZTNA) - Design MFA
+strategy for organization (consider usability, security) - Review NIST
+SP 800-63 (Digital Identity Guidelines)
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Zero Trust is increasingly important. Understand how IAM
+enables it.
+
+*Resources:* CSA Guidance v5 D9, NIST SP 800-63, Azure AD Conditional
+Access
+
+* ☐ Completed
+
+'''''
+
+==== Day 3: Privileged Access Management (PAM)
+
+*Key Concepts to Master:* - Privileged accounts and their risks -
+Just-In-Time (JIT) access and approval workflows - Privileged session
+recording and monitoring - Credential management and vaults
+
+*Study Focus:* Understand how to secure privileged access in cloud
+
+*Activities:* - Study PAM concepts and cloud implementation - Understand
+Just-In-Time (JIT) access provisioning - Review credential vaults (AWS
+Secrets Manager, Azure Key Vault) - Design PAM strategy for cloud
+infrastructure team - Understand cloud security admin accounts (root,
+service principals)
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Privileged access is #1 cloud security risk. Know JIT,
+monitoring, and credential management.
+
+*Resources:* CSA Guidance v5 D9, PAM Best Practices, Cloud Secrets
+Management
+
+* ☐ Completed
+
+'''''
+
+==== Day 4: Cloud IAM & Identity Governance
+
+*Key Concepts to Master:* - Cloud IAM (AWS IAM, Azure RBAC, GCP IAM)
+fundamentals - Role-based and attribute-based access control (RBAC,
+ABAC) - Cloud IAM policy analysis and least privilege - Identity and
+Entitlement Management (CIEM)
+
+*Study Focus:* Understand cloud-native IAM and governance
+
+*Activities:* - Study cloud IAM services (AWS IAM, Azure AD, GCP IAM) -
+Understand policy structure and evaluation logic - Practice writing
+least-privilege IAM policies - Learn about CIEM (Cloud Infrastructure
+Entitlement Management) tools - Review IAM best practices: avoid
+wildcard policies, use managed policies, regular reviews
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Cloud IAM misconfiguration is the #1 source of cloud
+breaches. Know how to audit and secure it.
+
+*Resources:* CSA Guidance v5 D9, AWS IAM Best Practices, Azure RBAC,
+CIEM Tools
+
+* ☐ Completed
+
+'''''
+
+==== Day 5: Week 8 Review & IAM Scenarios
+
+*Key Concepts to Master:* - Federation, MFA, PAM, cloud IAM, least
+privilege - Synthesis of identity and access management
+
+*Study Focus:* Design secure IAM architectures for cloud organizations
+
+*Activities:* - Answer 10 CSA sample questions on IAM - Scenario 1:
+Design identity architecture for hybrid workforce using multiple SaaS
+apps - Scenario 2: Audit cloud IAM for least privilege — identify risks
+and remediate - Scenario 3: PAM strategy — how to secure database admin
+access across cloud regions? - Self-assessment: Can you explain SAML,
+OAuth, Zero Trust, and CIEM?
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* IAM is the #1 attack surface in cloud. Expect multiple
+scenario questions on this domain.
+
+*Resources:* CSA Sample Questions, CSA Guidance v5 D9
+
+* ☐ Completed
+
+'''''
+
+=== Week 9: Application Security & SecaaS
+
+==== Day 1: Application Security in Cloud
+
+*Key Concepts to Master:* - Secure SDLC (Software Development Lifecycle)
+in cloud - Shift-left security: testing early in pipeline - SAST, DAST,
+SCA (Software Composition Analysis) in CI/CD - API security and gateway
+protections
+
+*Study Focus:* Understand cloud-native application security
+
+*Activities:* - Read CSA Guidance v5, Domain 10 & 11 - Study Secure SDLC
+principles applied to cloud - Understand SAST (source code analysis) vs
+DAST (runtime testing) vs SCA (dependency analysis) - Review OWASP Top
+10 and Top 10 API risks - Design a DevSecOps pipeline with security
+gates
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* DevSecOps is the modern way to secure applications. Know
+shift-left and CI/CD security.
+
+*Resources:* CSA Guidance v5 D10, OWASP Top 10, OWASP API Security Top
+10
+
+* ☐ Completed
+
+'''''
+
+==== Day 2: Cloud Access Security Brokers (CASB)
+
+*Key Concepts to Master:* - CASB mission and use cases - Four CASB
+deployment modes: API, forward proxy, reverse proxy, log-based - CASB
+visibility and threat detection - CASB policy enforcement (encryption,
+access control, data loss prevention)
+
+*Study Focus:* Understand CASB role in hybrid/multi-cloud environments
+
+*Activities:* - Study CASB architecture and deployment models -
+Understand CASB visibility into cloud usage (shadow IT detection) -
+Review CASB policy enforcement (data loss prevention, encryption,
+conditional access) - Compare CASB solutions (Netskope, Cloudflare,
+etc.) - Case study: How CASB detects shadow IT and improves compliance
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* CASB is critical for multi-cloud. Know the four
+deployment modes — exam tests this.
+
+*Resources:* CSA Guidance v5 D10, Gartner CASB Magic Quadrant
+
+* ☐ Completed
+
+'''''
+
+==== Day 3: Secrets Management & Infrastructure-as-Code Security
+
+*Key Concepts to Master:* - Secrets (credentials, keys, tokens) and how
+they’re exposed - Secrets management tools and vaults (HashiCorp Vault,
+cloud native) - Infrastructure-as-Code (IaC) security (Terraform,
+CloudFormation) - IaC scanning for misconfigurations
+
+*Study Focus:* Secure secrets and infrastructure code in pipelines
+
+*Activities:* - Study secrets management architecture - Review cloud
+native secret vaults (AWS Secrets Manager, Azure Key Vault) - Understand
+IaC security: scanning (Checkov, TFLint) and drift detection - Design
+secrets rotation strategy - Lab: Secure secrets in cloud CI/CD pipeline
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Secrets in code is a major cloud breach vector. Know
+secrets management and IaC scanning.
+
+*Resources:* CSA Guidance v5 D10, NIST SP 800-95, IaC Scanning Tools
+
+* ☐ Completed
+
+'''''
+
+==== Day 4: SecurityaaS (SecaaS) & Emerging Cloud Security
+
+*Key Concepts to Master:* - SecaaS categories: WAF-as-a-Service, DLP,
+EDR, SIEM-as-a-Service - API security services - Managed threat
+detection and response (MDR) - Cloud security posture management (CSPM)
+
+*Study Focus:* Understand security services available in cloud
+
+*Activities:* - Study SecaaS categories and cloud offerings - Understand
+CSPM tools (Wiz, Lacework, etc.) and their value - Review API security
+services (API gateways, API security) - Compare DIY vs SecaaS approaches
+for security functions - Case study: Selecting SecaaS for organization
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Cloud enables consumption of security as a service. Know
+options and tradeoffs.
+
+*Resources:* CSA Guidance v5 D10, CSPM Market Overview
+
+* ☐ Completed
+
+'''''
+
+==== Day 5: Week 9 Review & Application Security Scenarios
+
+*Key Concepts to Master:* - AppSec in cloud, CASB, secrets, IaC, SecaaS
+- Synthesis of application and service security
+
+*Study Focus:* Design secure application deployment and operations
+
+*Activities:* - Answer 10 CSA sample questions on AppSec and SecaaS -
+Scenario 1: Design DevSecOps pipeline for microservices app in
+Kubernetes - Scenario 2: Implement CASB — which deployment mode for web
+and email? - Scenario 3: Secure secrets for cloud CI/CD pipeline across
+regions - Challenge: Can you identify OWASP API Top 10 risks in cloud
+scenarios?
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Application security and SecaaS are increasingly
+important in CCSK v5.
+
+*Resources:* CSA Sample Questions, CSA Guidance v5 D10-D11
+
+* ☐ Completed
+
+'''''
+
+=== Week 10: Incident Response & Resilience
+
+==== Day 1: Cloud Incident Response Lifecycle
+
+*Key Concepts to Master:* - Preparation for cloud incidents (tools,
+runbooks, roles) - Detection and analysis in cloud (logs, alerts,
+correlation) - Containment strategies in cloud (snapshot, isolate,
+disable) - Eradication and recovery (patch, rebuild, restore)
+
+*Study Focus:* Adapt incident response to cloud environments
+
+*Activities:* - Read CSA Guidance v5, Domain 12 - Study NIST SP 800-61
+(Incident Handling) applied to cloud - Understand cloud-specific IR
+challenges (data location, multi-tenancy, logs across services) - Create
+IR runbook for compromised cloud instance - Review CSP incident response
+capabilities (AWS Security Hub, Azure Sentinel, GCP SCC)
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Cloud IR is different from on-prem. Snapshot instances
+before terminating — key for forensics.
+
+*Resources:* CSA Guidance v5 D12, NIST SP 800-61
+
+* ☐ Completed
+
+'''''
+
+==== Day 2: Cloud Forensics & Evidence Collection
+
+*Key Concepts to Master:* - Forensic readiness in cloud - Cloud logging
+and audit trails (CloudTrail, Azure Monitor, GCP Logs) - Evidence
+acquisition in cloud environments - Chain of custody and legal
+considerations
+
+*Study Focus:* Understand how to preserve and collect forensic evidence
+in cloud
+
+*Activities:* - Study cloud logging services and their retention -
+Understand VM snapshot collection for forensics - Review log
+centralization (CloudTrail, Azure Logs) for investigation - Learn about
+cloud forensics challenges (data location, VM snapshots, multi-tenancy)
+- Design forensic readiness program for cloud workloads
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Cloud forensics is complex. Focus on understanding
+challenges and how logging/snapshots help.
+
+*Resources:* CSA Guidance v5 D12, Cloud Forensics Basics
+
+* ☐ Completed
+
+'''''
+
+==== Day 3: Logging, Monitoring & Threat Detection
+
+*Key Concepts to Master:* - Cloud logging architecture (application
+logs, system logs, audit logs) - Centralized log aggregation (SIEM,
+cloud-native tools) - Real-time monitoring and alerting - Threat
+detection patterns and anomalies in cloud
+
+*Study Focus:* Design comprehensive logging and monitoring for cloud
+
+*Activities:* - Study cloud logging services (CloudTrail, Azure Monitor,
+GCP Cloud Logging) - Understand SIEM integration with cloud (sending
+logs to centralized SIEM) - Review cloud-native threat detection (AWS
+GuardDuty, Azure Defender, GCP Security Command Center) - Design logging
+strategy for multi-cloud environment - Understand metrics, logs, traces
+(observability) in cloud-native apps
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Logging is foundational for security, compliance, and
+incident response. Don’t underestimate.
+
+*Resources:* CSA Guidance v5 D12, NIST SP 800-92, Cloud Logging Services
+
+* ☐ Completed
+
+'''''
+
+==== Day 4: Threat Intelligence & Vulnerability Management
+
+*Key Concepts to Master:* - Threat intelligence in cloud context (MITRE
+ATT&CK Cloud Matrix) - Cloud-specific attack vectors (misconfiguration,
+credential exposure) - Vulnerability management at scale in cloud -
+Cloud security posture management (CSPM)
+
+*Study Focus:* Understand threat landscape and vulnerability management
+in cloud
+
+*Activities:* - Study MITRE ATT&CK Cloud Matrix (techniques specific to
+cloud) - Understand common cloud attacks (lateral movement, privilege
+escalation, data exfiltration) - Review vulnerability management tools
+(cloud scanners, network vulnerability scanners) - Design vulnerability
+management program for cloud at scale - Case study: CSPM tool deployment
+and remediation process
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Cloud attacks differ from traditional ones. Know
+cloud-specific threats in MITRE ATT&CK.
+
+*Resources:* CSA Guidance v5 D12, MITRE ATT&CK Cloud Matrix, NIST SP
+800-40
+
+* ☐ Completed
+
+'''''
+
+==== Day 5: Week 10 Review & Incident Response Scenarios
+
+*Key Concepts to Master:* - IR lifecycle, forensics, logging, threat
+intelligence - Synthesis of incident response and resilience
+
+*Study Focus:* Respond to cloud incidents effectively
+
+*Activities:* - Answer 10 CSA sample questions on incident response -
+Scenario 1: Suspected data exfiltration from S3 bucket — investigation
+steps? - Scenario 2: Suspicious IAM activity detected. What should you
+do? - Scenario 3: EC2 instance compromised. IR steps from detection to
+eradication. - Create an incident response playbook for cloud
+environment
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Domain 12 is practical. Expect IR scenario questions
+where you prioritize and respond.
+
+*Resources:* CSA Sample Questions, CSA Guidance v5 D12
+
+* ☐ Completed
+
+'''''
+
+== Phase 4: Review & Exam Prep
+
+=== Week 11: Full Domain Review & Consolidation
+
+==== Day 1: Domains 1-4 Deep Review
+
+*Key Concepts to Master:* - Cloud fundamentals, SRM, governance, legal,
+compliance - All key concepts from first 4 weeks
+
+*Study Focus:* Consolidate understanding of foundational domains
+
+*Activities:* - Re-read CSA Guidance v5 Domains 1-4 summaries - Review
+CCM v4 controls mapped to Domains 1-4 - Take practice quiz: 15 questions
+on each domain - Identify weak areas and allocate extra study time -
+Create summary sheets: cloud models, SRM per service, frameworks, legal
+landscape
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Weeks 1-4 are foundational. Ensure you understand them
+deeply — they support all later domains.
+
+*Resources:* CSA Guidance v5 D1-D4, CCM v4
+
+* ☐ Completed
+
+'''''
+
+==== Day 2: Domains 5-8 Deep Review
+
+*Key Concepts to Master:* - Data, infrastructure, virtualization,
+container security - All key concepts from weeks 5-7
+
+*Study Focus:* Consolidate understanding of core technical domains
+
+*Activities:* - Re-read CSA Guidance v5 Domains 5-8 summaries - Take
+practice quiz: 15 questions on each domain - Data lifecycle exercise:
+map controls for healthcare data - Network design exercise: 3-tier app
+with security zones - Container security checklist: what should be in
+place?
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Domains 5-8 are heavy on technical content. Practice
+mapping controls to real scenarios.
+
+*Resources:* CSA Guidance v5 D5-D8, CCM v4
+
+* ☐ Completed
+
+'''''
+
+==== Day 3: Domains 9-12 Deep Review
+
+*Key Concepts to Master:* - IAM, AppSec, IR, resilience - All key
+concepts from weeks 8-10
+
+*Study Focus:* Consolidate understanding of identity, apps, and
+operations
+
+*Activities:* - Re-read CSA Guidance v5 Domains 9-12 summaries - Take
+practice quiz: 15 questions on each domain - IAM design exercise:
+federated, MFA, least privilege - DevSecOps pipeline exercise: where to
+add security? - IR scenario: Walk through detection to recovery
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Domains 9-12 test your ability to apply cloud security in
+practice. Do scenario exercises.
+
+*Resources:* CSA Guidance v5 D9-D12, CCM v4
+
+* ☐ Completed
+
+'''''
+
+==== Day 4: Cross-Domain Integration & Knowledge Gaps
+
+*Key Concepts to Master:* - How domains interconnect (security controls
+span domains) - Common thread: shared responsibility, data lifecycle,
+least privilege - Identifying and filling knowledge gaps
+
+*Study Focus:* See the big picture of cloud security
+
+*Activities:* - Case study 1: Design security for multi-region,
+multi-cloud deployment - Case study 2: Audit cloud security posture
+across org - Flashcard review: 50+ key terms, definitions, concepts -
+Self-assessment: Where are your weak areas? (Rate 1-5 for each domain) -
+Deep dive study on any weak domains
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Exam questions often require pulling concepts from
+multiple domains. Practice integration.
+
+*Resources:* All CSA Guidance Domains, Flashcard decks
+
+* ☐ Completed
+
+'''''
+
+==== Day 5: Week 11 Checkpoint & Mock Assessment
+
+*Key Concepts to Master:* - All 12 CSA Security Guidance domains -
+End-to-end cloud security mastery
+
+*Study Focus:* Assess readiness before final exam week
+
+*Activities:* - Take official CSA CCSK practice test (or equivalent)
+untimed - Review every wrong answer — trace back to guidance domain -
+Calculate estimated score — are you 70%+ ready? - If <70%: identify weak
+domains and create targeted study plan - If 70%+: move confidently to
+Week 12 exam prep
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Use this checkpoint to gauge readiness. If you need more
+time on any domain, now is the moment.
+
+*Resources:* CSA Official Practice Test, All Prior Materials
+
+* ☐ Completed
+
+'''''
+
+=== Week 12: Practice Exam & Final Preparation
+
+==== Day 1: Timed Full-Length Mock Exam
+
+*Key Concepts to Master:* - All domains under exam conditions - Exam
+timing and question pacing
+
+*Study Focus:* Simulate exam experience
+
+*Activities:* - Take full 60-question practice exam in 90 minutes
+(timed, no breaks) - Track: pacing, difficult questions, time management
+- Score and review every question - Note topics where you guessed vs
+knew answer confidently
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Simulate exam conditions exactly. Sit at desk, no
+distractions, time yourself.
+
+*Resources:* CCSK Practice Exam
+
+* ☐ Completed
+
+'''''
+
+==== Day 2: Exam Question Deep-Dive
+
+*Key Concepts to Master:* - Understanding question types and exam
+patterns - Identifying correct answers vs common traps
+
+*Study Focus:* Analyze wrong answers and learn from mistakes
+
+*Activities:* - For each wrong answer, write explanation of why it was
+wrong - Identify if you missed concept or misread question - Review
+corresponding CSA Guidance section for each miss - Understand common
+exam trick patterns (most true statement, best practice, etc.) - Rebuild
+flashcards for concepts you struggled with
+
+*Time Required:* 2.5 hours
+
+*💡 Exam Tip:* Detailed review of wrong answers is more valuable than
+re-reading entire guidance.
+
+*Resources:* Practice Exam Review, CSA Guidance v5
+
+* ☐ Completed
+
+'''''
+
+==== Day 3: Final Concept Reviews & Test-Taking Strategy
+
+*Key Concepts to Master:* - 20-25 highest-impact concepts for exam
+success - Exam question strategies and time management
+
+*Study Focus:* Polish knowledge and exam strategy
+
+*Activities:* - Review top 25 exam concepts (SRM, shared resp, CCM, data
+lifecycle, IAM, controls) - Practice question type review:
+scenario-based, true/false, best practice - Time management: 1.5 min per
+question average - Test-taking tips: read questions carefully, eliminate
+obviously wrong answers - Confidence review: assess your readiness 1-10
+
+*Time Required:* 2 hours
+
+*💡 Exam Tip:* Don’t cram new concepts. Polish what you know. Confidence
+matters.
+
+*Resources:* Key Concepts List, Exam Strategy Guide
+
+* ☐ Completed
+
+'''''
+
+==== Day 4: PDF Preparation & Logistics
+
+*Key Concepts to Master:* - CSA Guidance v5 and CCM navigation - Exam
+day logistics and setup
+
+*Study Focus:* Prepare for open-book exam format
+
+*Activities:* - Download and organize CSA Guidance v5 PDF - Bookmark key
+sections (SRM, data lifecycle, domains overview) - Create index/quick
+reference in Guidance PDF - Review CCM v4 and bookmark key controls -
+Confirm exam logistics: date, time, proctor software (Pearson Vue) -
+Test computer, internet, camera setup
+
+*Time Required:* 1.5 hours
+
+*💡 Exam Tip:* Open-book exam means fast PDF navigation wins. Optimize
+your bookmarks now.
+
+*Resources:* CSA Guidance v5 PDF, CCM v4 PDF, Exam Registration
+
+* ☐ Completed
+
+'''''
+
+==== Day 5: Exam Day Preparation & Final Check
+
+*Key Concepts to Master:* - Mental preparation and stress management -
+Final logistics confirmation
+
+*Study Focus:* Feel ready and confident
+
+*Activities:* - Light review: key terms, SRM, CCM overview (30 min only)
+- Final logistics check: bookmark PDFs, test environment, camera/mic -
+Rest well: get good sleep night before - Day-of: light breakfast, water,
+calm environment - Arrive 15 min early for exam (virtual or physical) -
+*Remember: you’ve prepared thoroughly. Trust your knowledge.*
+
+*Time Required:* 1 hour
+
+*💡 Exam Tip:* The night before, stop studying. Rest is important.
+You’re ready.
+
+*Resources:* Final Checklist, CCSK Exam Portal
+
+* ☐ Completed
+
+'''''
+
+=== 🎉 You Did It!
+
+Congratulations on completing the 12-week CCSK v5 study plan. You have
+now comprehensively studied all 12 CSA Security Guidance v5 domains,
+completed 60 days of focused preparation, and practiced real-world cloud
+security scenarios.
+
+*Go ace that exam!* 🚀
